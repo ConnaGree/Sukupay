@@ -1,9 +1,7 @@
-import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
-const Footer = () => {
-  const [toggleProfile, setToggleProfile] = useState(false);
+const Footer = () => {  
   const currentYear = new Date().getFullYear();
 
   return (
